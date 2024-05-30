@@ -1,0 +1,53 @@
+/* Styling for the lyrics text */
+.lyrics {
+    font-family: "Caveat", cursive;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, .8);
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+/* Styling for the main heading */
+h1 {
+    font-family: "Sunflower", sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, .8);
+    font-size: 3.0em;
+}
+
+/* General styling for the body */
+body {
+    height: auto;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* Container for the lyrics section */
+.lyrics-container {
+    width: 50%;
+    height: 650px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure iframe inside lyrics container can scroll */
+.lyrics-container iframe {
+    overflow-y: scroll;
+}
+
+/* Styling for the video container */
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
